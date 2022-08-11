@@ -1,0 +1,82 @@
+* {
+  font-family: "ZCOOL QingKe HuangYou";
+  font-size: 20px;
+}
+
+#fBox {
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 50px rgb(255, 60, 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sBox {
+  text-align: center;
+}
+#inputs {
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#checkBtn {
+  margin: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  text-shadow: 0px 0px 8px rgb(255, 60, 0);
+  color: white;
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  box-shadow: 3px 3px 6px rgb(255, 60, 0);
+}
+
+#checkBtn:hover {
+  box-shadow: 3px 3px 6px rgb(255, 0, 0);
+  text-shadow: 0px 0px 8px rgb(255, 00, 0);
+}
+
+#hint {
+  margin-top: 50%;
+}
+
+#Next {
+  display: flex;
+  margin: auto;
+}
+
+#NextBtn {
+  margin: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  text-shadow: 0px 0px 8px rgb(255, 60, 0);
+  color: white;
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  box-shadow: 3px 3px 6px rgb(255, 60, 0);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#NextBtn:hover {
+  box-shadow: 3px 3px 6px rgb(255, 0, 0);
+  text-shadow: 0px 0px 8px rgb(255, 00, 0);
+}
